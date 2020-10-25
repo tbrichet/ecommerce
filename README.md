@@ -33,5 +33,7 @@ Screencastify Demo |
 * Sequelize <br>
 * Express <br>
 * MySql <br>
+* DotEnv <br>
+* Insomnia Core <br>
 * Starter Code provided by University of Arizona Bootcamp <br>
 * Remaining code created with <3 by Tara Brichetto
