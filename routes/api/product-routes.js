@@ -42,7 +42,7 @@ router.get('/:id', (req, res) => {
         attributes: ['category_name']
       },
       {
-        model: Tab,
+        model: Tag,
         attributes: ['tag_name']
       }
     ]
