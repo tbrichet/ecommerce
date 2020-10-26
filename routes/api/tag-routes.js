@@ -1,6 +1,6 @@
 const router = require('express').Router();
 const { Tag, Product, ProductTag } = require('../../models');
-const { TableHints } = require('sequelize/types');
+//const { TableHints } = require('sequelize/types');
 
 // The `/api/tags` endpoint
 
@@ -25,7 +25,8 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
   // find a single tag by its `id`
   // be sure to include its associated Product data
-  TableHints.findOne({
+  //TableHints.findOne({
+  Tag.findOne({
     where: {
       id: req.params.id
     },
